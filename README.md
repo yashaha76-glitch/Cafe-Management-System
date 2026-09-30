@@ -11,7 +11,7 @@ A desktop-based Cafe Management System developed as a university project using C
 - .NET Framework
 
 ## Database
-- Database: MySQL
+- Database Management System: MySQL 8.0
 - Database Name: `yashadb`
 - Main Table: `items`
 - SQL File: `yashadb_full_backup.sql`
@@ -36,6 +36,11 @@ A desktop-based Cafe Management System developed as a university project using C
 4. Make sure the database is named `yashadb`.
 5. Configure the MySQL connection string in the project with your local MySQL username and password.
 6. Build and run the project.
+
+## Project Structure
+- `Cafe Project.sln` - Visual Studio solution file
+- `Cafe Project/` - C# Windows Forms source code
+- `yashadb_full_backup.sql` - MySQL database structure and sample data
 
 ## ER Model
 <img width="497" height="572" alt="image" src="https://github.com/user-attachments/assets/ab1e1145-2045-42c7-983f-8ffb1ca74154" />
