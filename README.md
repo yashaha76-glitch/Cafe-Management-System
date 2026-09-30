@@ -10,6 +10,14 @@ A desktop-based Cafe Management System developed as a university project using C
 - Visual Studio 2022
 - .NET Framework
 
+## Database
+- Database: MySQL
+- Database Name: `yashadb`
+- Main Table: `items`
+- SQL File: `yashadb_full_backup.sql`
+- The database stores cafe item information such as item ID, name, category, and price.
+- The SQL file contains the database structure and sample cafe item records.
+
 ## Features
 - User Login System for secure access 
 - Add, Update, and Delete Cafe Items 
@@ -24,9 +32,10 @@ A desktop-based Cafe Management System developed as a university project using C
 ## How to Run
 1. Download or clone the repository.
 2. Open `Cafe Project.sln` in Visual Studio 2022.
-3. Import the SQL database into MySQL.
-4. Configure your local database connection.
-5. Build and run the project.
+3. Open MySQL Workbench and import `yashadb_full_backup.sql`.
+4. Make sure the database is named `yashadb`.
+5. Configure the MySQL connection string in the project with your local MySQL username and password.
+6. Build and run the project.
 
 ## ER Model
 <img width="497" height="572" alt="image" src="https://github.com/user-attachments/assets/ab1e1145-2045-42c7-983f-8ffb1ca74154" />
